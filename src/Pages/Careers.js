@@ -6,7 +6,7 @@ const Careers = () => {
   return (
     <div className="pages">
       <OtherNavBar page="Careers" />
-      <div></div>
+      <div id="careers"></div>
       <Footer />
     </div>
   );

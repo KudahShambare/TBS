@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div className="pages">
       <OtherNavBar page="About Us" />
-      <div> </div>
+      <div id="about-us"></div>
       <Footer />
     </div>
   );

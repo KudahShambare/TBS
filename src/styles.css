@@ -5,6 +5,7 @@
 .pages {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100vw;
 }
 /*NavBar*/
@@ -88,6 +89,22 @@
 /*Services*/
 .services {
   height: 120vh;
+}
+/*About Us*/
+#about-us {
+  height: 80vh;
+}
+/*Careers*/
+#careers {
+  height: 80vh;
+}
+/*News*/
+#news {
+  height: 80vh;
+}
+/*Contact Us*/
+#contact-us {
+  height: 80vh;
 }
 /*Footer*/
 footer {

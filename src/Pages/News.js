@@ -6,7 +6,7 @@ const News = () => {
   return (
     <div className="pages">
       <OtherNavBar page="News" />
-      <div></div>
+      <div id="news"></div>
       <Footer />
     </div>
   );
