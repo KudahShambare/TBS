@@ -1,10 +1,23 @@
 import "./styles.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import AboutUs from "./Pages/AboutUs";
+import ContactUs from "./Pages/ContactUs";
+import Services from "./Pages/Services";
+import Careers from "./Pages/Careers";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/contact-us" component={ContactUs} />
+          <Route path="/services" component={Services} />
+          <Route path="/careers" component={Careers} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
