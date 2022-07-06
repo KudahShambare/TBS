@@ -5,6 +5,7 @@ import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import Services from "./Pages/Services";
 import Careers from "./Pages/Careers";
+import News from "./Pages/News";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/contact-us" component={ContactUs} />
           <Route path="/services" component={Services} />
           <Route path="/careers" component={Careers} />
+          <Route path="/news" component={News} />
         </Switch>
       </BrowserRouter>
     </div>
