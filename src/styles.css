@@ -2,6 +2,11 @@
   font-family: sans-serif;
   text-align: center;
 }
+.pages {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
 /*NavBar*/
 #nav-logo-container {
   background-color: white;
@@ -79,4 +84,33 @@
   position: absolute;
   top: 20vh;
   left: 45vw;
+}
+/*Services*/
+.services {
+  height: 120vh;
+}
+/*Footer*/
+footer {
+  background-color: black;
+  height: 30vh;
+  padding: 15%;
+  display: flex;
+}
+#footer-logo {
+  height: 10vh;
+  width: 20vw;
+}
+#newsletter {
+  color: white;
+  padding-left: 20%;
+  white-space: nowrap;
+}
+#newsletter-form {
+  display: flex;
+  padding-left: 20%;
+}
+#newsletter-button {
+  height: 4vh;
+  width: 4vw;
+  background-color: orange;
 }

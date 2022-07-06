@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/Footer";
 import HomeNavBar from "../Components/HomeNavBar";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         </section>
       </div>
       <div id="shared-services"></div>
+      <Footer />
     </div>
   );
 };
