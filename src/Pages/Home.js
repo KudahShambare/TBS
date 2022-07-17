@@ -30,10 +30,39 @@ const Home = () => {
             src="https://firebasestorage.googleapis.com/v0/b/tando-dbac5.appspot.com/o/Screen%20Shot%202022-07-05%20at%207.29.36%20PM.png?alt=media&token=98362b20-a0a3-4da2-adef-98778080a8fe"
           />
         </section>
-
-        <div id="facts-container"></div>
-        <div id="facts-container"></div>
-        <div id="facts-container"></div>
+      </div>
+      <div id="shared-services">
+        <section id="shared-services-text">
+          <h1>
+            {" "}
+            Take an advantage of our Shared Service and put your organization in
+            a competitive edge
+          </h1>
+          <p>
+            {" "}
+            We create an Operational Capability by eliminating the risk of
+            having different technology vendors and avoid business units from
+            going outside IT and deal with technology vendors directly. We
+            strongly believe in forming strategic partnership with an
+            organization and offer quality, reliable and sustainable IT
+            Solutions
+          </p>
+        </section>
+        <section> </section>
+      </div>
+      <div id="our-experiences">
+        <section id="our-experiences-top">
+          <h1>
+            {" "}
+            Our wealth of experience in Software Solutionspositions our
+            customers at the forefront of their field{" "}
+          </h1>
+          <p>
+            {" "}
+            We bring more than 20 years senior andtechinical experience forging
+            collaborations accross industries and international forums.{" "}
+          </p>
+        </section>
       </div>
 
       <Footer />
