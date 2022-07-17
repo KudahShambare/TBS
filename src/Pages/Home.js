@@ -63,6 +63,12 @@ const Home = () => {
             collaborations accross industries and international forums.{" "}
           </p>
         </section>
+        <section id="our-experiences-bottom">
+          <div className="our-experiences-card">Dedicated Teams </div>
+          <div className="our-experiences-card">Save Time & Money </div>
+          <div className="our-experiences-card"> Product Design</div>
+          <div className="our-experiences-card">Scalability </div>
+        </section>
       </div>
 
       <Footer />
