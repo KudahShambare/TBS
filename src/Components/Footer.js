@@ -9,14 +9,6 @@ const Footer = () => {
         alt="Failed to load"
         id="footer-logo"
       />
-      <section id="newsletter">
-        <h3>Newsletter </h3>
-        <h5>Let us send you a newsletter to stay updated </h5>
-        <form id="newsletter-form">
-          <input type="email" />
-          <button id="newsletter-button"> </button>
-        </form>
-      </section>
     </footer>
   );
 };
