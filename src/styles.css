@@ -145,11 +145,14 @@
 }
 /*News*/
 #news {
-  height: 80vh;
+  height: 100vh;
+}
+#news-img {
+  padding-top: 5%;
 }
 /*Contact Us*/
 #contact-us {
-  padding-top: 5%;
+  padding-top: 15%;
   color: white;
   background-color: rgb(0, 0, 0);
   height: 80vh;
