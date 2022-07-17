@@ -90,7 +90,7 @@
 }
 /*Our Experiences*/
 #our-experiences {
-  height: 70vh;
+  height: 90vh;
   background-color: rgb(0, 0, 0);
   color: white;
 }
@@ -115,12 +115,47 @@
 .our-experiences-card {
   background-color: white;
   color: black;
-  height: 30vh;
-  width: 14vw;
+  height: 40vh;
+  width: 20vw;
 }
 .our-experiences-card:hover {
-  background-color: orangered;
-  box-shadow: orangered;
+  background-color: orange;
+}
+.our-experiences-card > p {
+  width: 70%;
+  margin-left: 10%;
+}
+/*Facts*/
+#facts {
+  padding: 5%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+.single-fact {
+  background-color: orange;
+  height: 40vh;
+  width: 40vw;
+  border-radius: 50%;
+}
+.single-fact > h2 {
+  padding-top: 20%;
+}
+/*More Info*/
+#more-info {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#get-info {
+  background-color: rgb(120, 120, 120, 0.3);
+  padding-left: 10%;
+  width: 80%;
+}
+#enquiry-button {
+  height: 10vh;
+  width: 50vw;
+  background: linear-gradient(orange, orangered);
 }
 /*Other  Pages*/
 

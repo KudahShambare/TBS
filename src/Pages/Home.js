@@ -1,4 +1,5 @@
 import React from "react";
+import EnquiryForm from "../Components/EnquiryForm";
 import Footer from "../Components/Footer";
 import HomeNavBar from "../Components/HomeNavBar";
 
@@ -64,13 +65,62 @@ const Home = () => {
           </p>
         </section>
         <section id="our-experiences-bottom">
-          <div className="our-experiences-card">Dedicated Teams </div>
-          <div className="our-experiences-card">Save Time & Money </div>
-          <div className="our-experiences-card"> Product Design</div>
-          <div className="our-experiences-card">Scalability </div>
+          <div className="our-experiences-card">
+            <h3> Dedicated Teams</h3>
+            <p>
+              {" "}
+              Highly skilled team that provides agility to oust your competitors{" "}
+            </p>
+          </div>
+          <div className="our-experiences-card">
+            <h3> Save Time & Money </h3>
+            <p>
+              {" "}
+              No recruitment effort and fees. No operational or office overheads{" "}
+            </p>
+          </div>
+          <div className="our-experiences-card">
+            <h3> Product Design</h3>
+            <p>
+              {" "}
+              Upfront product roadmap. Iterate Architecture and Design before a
+              single line of code is written{" "}
+            </p>
+          </div>
+          <div className="our-experiences-card">
+            <h3>Scalability </h3>{" "}
+            <p>
+              {" "}
+              An additional team enables your business to scale efficiently.
+            </p>
+          </div>
         </section>
       </div>
-
+      <div id="facts">
+        <section className="single-fact">
+          <h2>Project Based Company </h2>
+        </section>
+        <section className="single-fact">
+          <h2> Over 24 Years Senior Experience </h2>
+        </section>
+        <section className="single-fact">
+          <h2>Level One BBBEE Business </h2>
+        </section>
+      </div>
+      <div id="more-info">
+        <section id="faq">
+          <h1>You can learn more from our asked questions </h1>
+        </section>
+        <section id="get-info">
+          <h1> Get more information about us </h1>
+          <p>
+            {" "}
+            Feel free to contact us should you require any information about our
+            Software Development, Consultancy and Application Support services.{" "}
+          </p>
+          <EnquiryForm />
+        </section>
+      </div>
       <Footer />
     </div>
   );
