@@ -2,6 +2,7 @@ import React from "react";
 import EnquiryForm from "../Components/EnquiryForm";
 import Footer from "../Components/Footer";
 import HomeNavBar from "../Components/HomeNavBar";
+import Partners from "../Components/Partners";
 
 const Home = () => {
   return (
@@ -121,6 +122,7 @@ const Home = () => {
           <EnquiryForm />
         </section>
       </div>
+      <Partners />
       <Footer />
     </div>
   );

@@ -174,7 +174,27 @@
 }
 /*Services*/
 .services {
-  height: 120vh;
+  height: 270vh;
+}
+#all-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.single-service {
+  text-align: start;
+  height: 60vh;
+  width: 60vw;
+  border: rgb(0, 0, 0) solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  padding: 1%;
+}
+/*Partners*/
+#partners {
+  padding-top: 5%;
 }
 /*About Us*/
 #about-us {
