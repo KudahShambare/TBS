@@ -187,7 +187,7 @@
 }
 /*Services*/
 .services {
-  height: 270vh;
+  height: 390vh;
 }
 #all-services {
   display: flex;
@@ -196,7 +196,7 @@
 }
 .single-service {
   text-align: start;
-  height: 80vh;
+  height: 100vh;
   width: 60vw;
   border: rgb(0, 0, 0) solid;
   display: block;
