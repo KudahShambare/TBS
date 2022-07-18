@@ -1,5 +1,6 @@
 import React from "react";
 import EnquiryForm from "../Components/EnquiryForm";
+import FAQ from "../Components/FAQ";
 import Footer from "../Components/Footer";
 import HomeNavBar from "../Components/HomeNavBar";
 import Partners from "../Components/Partners";
@@ -111,6 +112,7 @@ const Home = () => {
       <div id="more-info">
         <section id="faq">
           <h1>You can learn more from our asked questions </h1>
+          <FAQ />
         </section>
         <section id="get-info">
           <h1> Get more information about us </h1>
