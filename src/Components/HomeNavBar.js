@@ -1,12 +1,14 @@
 import React from "react";
 import NavLinks from "./NavLinks";
+import Slides from "./Slides";
 
 const HomeNavBar = () => {
   return (
     <>
-      <section id="nav-logo-container"></section>
-
-      <NavLinks />
+      <div>
+        <NavLinks />
+        <Slides />
+      </div>
     </>
   );
 };

@@ -10,13 +10,7 @@
   font-family: "Oswald";
 }
 /*NavBar*/
-#nav-logo-container {
-  background-color: white;
-  width: 50%;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+
 #nav-logo {
   width: 25vw;
   height: 15vh;
@@ -45,13 +39,11 @@
   text-decoration: underline;
 }
 #welcome {
+  background-color: black;
   position: absolute;
   left: 0%;
   top: 0%;
   width: 100vw;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/tando-dbac5.appspot.com/o/Screen%20Shot%202022-07-06%20at%206.21.38%20PM.png?alt=media&token=f4764621-124b-4669-a3d1-5121e71d0bef");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 80vh;
 }
 #home-services-container {
@@ -143,9 +135,10 @@
 }
 /*More Info*/
 #more-info {
-  height: 90vh;
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
 }
 #get-info {
   background-color: rgb(120, 120, 120, 0.3);
@@ -154,7 +147,7 @@
 }
 #enquiry-button {
   height: 10vh;
-  width: 50vw;
+  width: 30vw;
   background: linear-gradient(orange, orangered);
 }
 /*Other  Pages*/
